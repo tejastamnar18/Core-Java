@@ -108,7 +108,7 @@ public class StudentManagementSystem {
                 s.setAge(sc.nextInt());
                 System.out.print("Enter New Marks: ");
                 s.setMarks(sc.nextDouble());
-                System.out.println("✅ Student updated successfully!");
+                System.out.println("Student updated successfully!");
                 return;
             }
         }
@@ -124,7 +124,7 @@ public class StudentManagementSystem {
             Student s = it.next();
             if (s.getRollNo() == rollNo) {
                 it.remove();
-                System.out.println("✅ Student deleted successfully!");
+                System.out.println("Student deleted successfully!");
                 return;
             }
         }
@@ -155,10 +155,10 @@ public class StudentManagementSystem {
                 case 5: deleteStudent(sc); break;
                 case 6:
                     saveStudents();
-                    System.out.println("💾 Data saved. Exiting...");
+                    System.out.println("Data saved. Exiting...");
                     sc.close();
                     return;
-                default: System.out.println("❌ Invalid choice!");
+                default: System.out.println("Invalid choice!");
             }
         }
     }
