@@ -68,7 +68,7 @@ public class StudentManagementSystem {
         double marks = sc.nextDouble();
 
         students.add(new Student(rollNo, name, age, marks));
-        System.out.println("✅ Student added successfully!");
+        System.out.println("Student added successfully!");
     }
 
     // View all students
