@@ -11,5 +11,6 @@ public class userInput{
         long num2 = s.nextLong();
         int res = (int)(num1+num2);
         System.out.println(res);
+        s.close();
     }
 }
