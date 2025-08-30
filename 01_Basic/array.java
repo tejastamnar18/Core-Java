@@ -17,7 +17,7 @@ class array{
         //     System.out.println(name);
         // }
 
-        int num[]= {43,54,6,7,8,9,8,76,5,4,32,34,5,54,45,3};
+        int num[]= {43,54,6,7,8,9,8,-76,577,4,32,34,5,54,45,3,-23};
         int i;
         int sum = 0;
         for(i=0;i < num.length;i++){
@@ -25,7 +25,23 @@ class array{
             if(i >= num.length-1){
             System.out.println(sum);
             }
-            
-            }
+     }
+        
+    int min = Integer.MAX_VALUE;
+    for (int number : num){
+        if(number < min){
+            min = number;
+        }
+    }
+    System.out.println("Min is "+min);
+
+    
+    int max = Integer.MIN_VALUE;
+    for (int number : num){
+        if(number > max){
+            max = number;
+        }
+    }
+    System.out.println("max is "+ max);
 }
 }
