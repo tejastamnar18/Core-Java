@@ -10,7 +10,7 @@ class method {
         int b= 20;
         int c = a+b;
         System.out.println(c);
-        // tejas();//!Method Recursion
+        tejas();//!Method Recursion
     }
     
     public static void main(String[] args){
